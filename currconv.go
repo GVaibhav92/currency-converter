@@ -72,6 +72,6 @@ func main() {
 
 	convertedAmount := amount * rate
 	fmt.Printf("\n💱 Currency Conversion Result:\n")
-	fmt.Printf("➡️ %.2f %s = %.2f %s\n", amount, from, convertedAmount, to)
-	fmt.Printf("🔁 Exchange Rate: 1 %s = %.4f %s\n", from, rate, to)
+	fmt.Printf(" %.2f %s = %.2f %s\n", amount, from, convertedAmount, to)
+	fmt.Printf(" Exchange Rate: 1 %s = %.4f %s\n", from, rate, to)
 }
